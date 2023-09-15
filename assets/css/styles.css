@@ -195,12 +195,22 @@ nav {
   color: var(--title-color);
 }
 
-.nav_logo-circle, 
+.nav__logo-circle, 
 .nav__toggle{
   width: 32px;
   height: 32px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  display: grid;
+  place-items: center;
 }
-
+.nav__logo-circle{
+  border-radius: 50%;
+}
+.nav__toggle{
+  font-size: 1.25rem;
+  cursor: pointer;
+}
 /* Navigation for mobile devices */
 
 
