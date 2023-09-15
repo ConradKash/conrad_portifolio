@@ -212,7 +212,9 @@ nav {
   cursor: pointer;
 }
 /* Navigation for mobile devices */
-
+@media screen and (max-width:1150px){
+  
+}
 
 /* Show menu */
 
