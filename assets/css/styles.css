@@ -313,7 +313,9 @@ img {
 }
 
 /* Add shadow header */
-
+.shadow-header{
+  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
+}
 
 /* Active link */
 
@@ -323,7 +325,7 @@ img {
   padding-top: 2rem;
 }
 
-.home_name{
+.home__name{
   font-size: var(--biggest-font-size);
   text-align: center;
 }
@@ -439,10 +441,27 @@ img {
   font-size: 1rem;
   cursor: pointer;
   overflow: hidden;
-  transition: background-color .3s;
+  transition: background-color .4s;
+}
+
+.home_scroll i{
+  animation: scroll-down 3s infinite;
 }
 /* Animate scroll icon */
-
+@keyframes scroll-down {
+  0%{
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(.6rem);
+    opacity: 0;
+  }
+}
 
 /*=============== BUTTON ===============*/
 
