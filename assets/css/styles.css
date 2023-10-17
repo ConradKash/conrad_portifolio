@@ -465,7 +465,7 @@ img {
 
 /*=============== BUTTON ===============*/
 .button,
-.button__ghosst{
+.button__ghost{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -480,12 +480,27 @@ img {
   transition: background-color .4s;
 }
 
-.button{
+.button i{
   font-size: 1.25rem;
 }
 
 .button:hover{
   background-color: var(--first-color);
+}
+
+.button__ghost{
+  border: 3px solid var(--black-color);
+  color: var(--black-color);
+  padding: .5rem;
+  transition: border .4s, color .4s;
+}
+
+.button__ghost i{
+  font-size: 1.5rem;
+}
+
+.button__ghost:hover{
+  border: 3px solid var(--first-color);
 }
 
 /*=============== ABOUT ===============*/
