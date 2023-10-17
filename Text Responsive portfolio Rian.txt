@@ -60,9 +60,9 @@ https://www.linkedin.com/
 Services.
 
 .services__title .services__description
-Web Design
-Beautiful and elegant designs with 
-interfaces that are intuitive, efficient 
+Data Analysis
+Beautiful and elegant reports with 
+information that are intuitive, efficient 
 and pleasant  to use for the user.
 
 Development
@@ -70,10 +70,10 @@ Custom web development tailored to your
 specifications, designed to provide a 
 flawless user experience.
 
-Mobile App
-Design and transform website projects 
-into mobile apps to provide a seamless
-user experience.
+Software Engineering | DataScience
+Design, deploy and implement DataScience 
+and machine learning solutions to provide 
+a seamless user experience and solve problems.
 
 
 ========== PROJECTS ==========
@@ -85,10 +85,10 @@ Website
 App
 
 .projects__title 
-Restaurant Website
-Yoga App
-Fast Food App
-Coffee Delivery Website
+Language ID model
+Face recognition system
+To-do list
+Sacco website
 Barbershop Website
 
 .projects__description
