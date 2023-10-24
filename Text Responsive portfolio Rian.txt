@@ -81,8 +81,8 @@ a seamless user experience and solve problems.
 Projects.
 
 .projects__subtitle 
-Website
-App
+Model Development
+Data Science
 
 .projects__title 
 Language ID model
