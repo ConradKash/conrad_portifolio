@@ -826,7 +826,7 @@ img {
 .contact__box{
   position: relative;
   width: 100%;
-  height: 50px;
+  height: 58px;
 
 }
 
@@ -843,7 +843,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: var(--black-color);
-  border: 3px var(--black-color-light);
+  border: 3px solid var(--black-color-light);
   color: var(--white-color);
   padding: .5rem 1rem;
   font-weight: var(--font-medium);
@@ -954,6 +954,14 @@ img {
 
 .contact__social-link:hover{
   background-color: var(--first-color);
+}
+
+.contact__message{
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+  position: absolute;
+  bottom: -1.6rem;
+  left: 0;
 }
 
 /*=============== FOOTER ===============*/
