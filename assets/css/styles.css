@@ -1317,14 +1317,15 @@ body.dark-theme{
     margin-bottom: 5.5rem;
     padding-left: 3rem;
   }
+
   .home__description::after{
     content: '';
    width: 32px;
-   height: 2px;
+   height: 4px;
    background-color: var(--title-color);
    position: absolute;
    left: 0;
-   top: 4px;
+   top: .75rem;
   }
 
   .home__scroll{
