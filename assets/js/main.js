@@ -136,9 +136,9 @@ themeButton.addEventListener('click', () => {
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
+    duration: 2000,
     delay: 40,
-    reset: true // Animation repetition
+    //reset: true // Animation repetition
 })
 
 sr.reveal(`.home__perfil, .about__image, .contact__mail`, {origin: 'right'})
