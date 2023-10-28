@@ -1409,4 +1409,10 @@ body.dark-theme{
     top: 4.5rem;
   } 
 
+  .about__line{
+    right: -2rem;
+    width: 80px;
+    top: 10rem;
+  }
+
 }
