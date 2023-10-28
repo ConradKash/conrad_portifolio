@@ -1416,4 +1416,45 @@ body.dark-theme{
     top: 10rem;
   }
 
+  .about__box{
+    width: 64px;
+    height: 64px;
+    right: -0.75rem;
+  }
+
+  .about__container .section__title-1{
+    align-self: flex-end;
+    padding-left: 3rem;
+  }
+
+  .about__description{
+    font-style: var(--h2-font-size);
+    margin-bottom: 2rem;
+  }
+
+  .about__description::after{
+    width: 32px;
+    height: 2px;
+    left: -3rem;
+    top: 14px;
+  }
+
+  .about__list{
+    margin-bottom: 5rem;
+  }
+
+  .about__buttons{
+    justify-content: initial;
+  }
+
+  .button__ghost{
+    padding: 0.75rem;
+  }
+
+  .button__ghost i{
+    font-size: 1.5rem;
+  }
+
+  
+
 }
