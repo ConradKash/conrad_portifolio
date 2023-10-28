@@ -1189,5 +1189,46 @@ body.dark-theme{
   }
   
 }
+@media screen and (min-width: 768px) {
+ .services__container{
+  grid-template-columns: repeat(2, 1fr);
+ }
+
+  .projects__container{
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
 
 /* For large devices */
+
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .section{
+    padding-block: 7rem 2rem;
+  }
+
+  .section__title-1::after,
+  .section__title-2::after{
+    width: 70px;
+    height: 48px;
+  }
+  
+  .geometric-box{
+    transform: scale(1,2);
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav__close,
+  .nav__toggle,
+  .nav__title,
+  .nav__name{
+    display: none;
+  }
+
+}
