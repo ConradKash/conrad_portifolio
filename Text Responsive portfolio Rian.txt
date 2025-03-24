@@ -9,7 +9,7 @@ Rian Lot.
 Menu
 
 .nav__name
-Rian
+Rianconradkash.github.io
 
 .nav__link
 Home - About Me - Projects - Contact Me

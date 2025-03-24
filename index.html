@@ -1,453 +1,558 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/62792288.png" type="image">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/62792288.png" type="image" />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Conrad's Portifolio</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-        <header class="header", id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">
-                    <span class="nav__logo-circle">
-                        <img src="assets/img/62792288.png" alt="img" class="nav__logo-circle">
-                    </span>
-                    <span class="nav__logo-name">Kakuru Conrad Akankwasa.</span>
-                </a>
+    <title>Conrad's Portifolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" , id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">
+            <img
+              src="assets/img/62792288.png"
+              alt="img"
+              class="nav__logo-circle"
+            />
+          </span>
+          <span class="nav__logo-name">Kakuru Conrad Akankwasa.</span>
+        </a>
 
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title"> Menu </span>
+          <h3 class="nav__name">Kakuru Conrad Akankwasa</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
 
-                <div class="nav__menu" id="nav-menu">
-                    <span class="nav__title">
-                        Menu
-                    </span>
-                    <h3 class="nav__name">Kakuru Conrad Akankwasa</h3>
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
 
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About Me</a>
-                        </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
 
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">Projects</a>
-                        </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
 
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
-                        </li>
-                    </ul>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-                    <!-- Close button -->
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
-                </div>
-                    
-                <div class="nav__buttons">
-                    <!-- Theme Button -->
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="nav__buttons">
+          <!-- Theme Button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-                    <!-- Toggle Buton -->
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-4-line"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+          <!-- Toggle Buton -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-                <h1 class="home__name">Kakuru Conrad Akankwasa</h1>
-                <div class="home__perfil">
-                    <div class="home__image">
-                        <img src="assets/img/first.png" alt="Image" class="home__img">
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Kakuru Conrad Akankwasa</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="assets/img/first.png" alt="Image" class="home__img" />
 
-                        <div class="home__shadow"></div>
+              <div class="home__shadow"></div>
 
-                        <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
-                        <img src="assets/img/random-lines.svg" alt="" class="home__line">
+              <img
+                src="assets/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
 
-                        <div class="geometric-box"></div>
-                    </div>                
-
-                    <div class="home__social">
-                        <a href="https://www.instagram.com/thee.mukiga/" target="_blank" class="home__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/kakuru-conrad-akankwasa-89289b1a4/" target="_blank" class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-
-                        <a href="https://github.com/ConradKash" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="home__info">
-                    <p class="home__description">
-                        <b>Software Engineer | Data Scientist</b>, with knowledge in data science and software 
-                        engineering, I offer the best 
-                        projects resulting in quality work.
-                    </p>
-
-                    <a href="#about" class="home__scroll">
-                        <div class="home__scroll-box">
-                            <i class="ri-arrow-down-s-line"></i>
-                        </div>
-
-                        <span class="home__scroll-text">
-                            Scroll down
-                        </span>
-                    </a>
-
-                </div>
+              <div class="geometric-box"></div>
             </div>
-         </section>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
-                    About Me.
-                </h2>
-                
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="assets/img/second.jpg" alt="image" class="about__img">
-                        <div class="about__shadow"></div>
-                        <div class="geometric-box"></div>
-                        <img src="assets/img/random-lines.svg" alt="" class="about__line">
-                        <div class="about__box"></div>
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/thee.mukiga/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
 
-                    </div>
-                </div>
-                <div class="about__info">
-                    <p class="about__description">
-                        I am incredibly passionate about <b>Data science and machine learning.</b> 
-                        The potential for these fields to revolutionize the way we live and work is truly inspiring to me. 
-                        I am constantly seeking out new <b>opportunities to learn and grow</b> in these areas, 
-                        and I am always eager to <b>share my knowledge and expertise</b> with others.
-                    </p>
+              <a
+                href="https://www.linkedin.com/in/kakuru-conrad-akankwasa-89289b1a4/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
 
-                    <ul class="about__list">
-                        <li class="about__item">
-                            <b>My Skills Are:</b> Python, PowerBi, Data science,
-                            FastApi, Machine Learning, Data Engineering,
-                            React, Git & GitHub, TailwindCss, Flutter & 
-                            Figma.
-                        </li>
-                    </ul>
-                    <div class="about__buttons">
-                        <a href="#contact" class="button">
-                            <i class="ri-send-plane-line"></i> Contact Me.
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/kakuru-conrad-akankwasa-89289b1a4/" target="_blank" class="button__ghost">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                    </div>
-                </div>
+              <a
+                href="https://github.com/ConradKash"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
             </div>
-         </section>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Software Engineer</b>, with knowledge in software development
+              and design. I offer the best and quick delivery projects resulting
+              in quality and reliable work.
+            </p>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services  op section" id="sec">
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text"> Scroll down </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">About Me.</h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img src="assets/img/second.jpg" alt="image" class="about__img" />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+          <div class="about__info">
+            <p class="about__description">
+              I am a Full-Stack Software Engineer with expertise in
+              <b>Figma, React, TailwindCss and NextJs for frontend</b>
+              development building dynamic user interfaces. On the backend, I
+              specialize in <b>Golang, Spring Boot, and Laravel </b>, designing
+              <b>scalable microservices, RESTful APIs</b>. <br /><br />With a
+              strong focus on frontend development, I craft intuitive user
+              experiences, ensuring responsiveness and performance. I excel in
+              agile environments, leveraging
+              <b>CI/CD pipelines, cloud services</b>, and modern development
+              practices like testing to enhance efficiency. <br /><br />
+              Passionate about problem-solving and innovation, I am dedicated to
+              delivering,<b> scalable, and user-centric</b> software solutions.
+            </p>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My Skills Are:</b> React, NextJs, ExpressJs, TailwindCss,
+                Figma, Golang, Laravel, Springboot Django, SQL, MongoDB Git &
+                GitHub, Cloud services
+              </li>
+            </ul>
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i> Contact Me.
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/kakuru-conrad-akankwasa-89289b1a4/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services op section" id="sec">
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-bar-chart-grouped-line"></i>
+              </div>
+
+              <h2 class="services__title">Web / Mobile Designing</h2>
+              <p class="services__description">
+                Beautiful and elegant reports with information that are
+                intuitive, efficient and pleasant to use for the user.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+
+              <h2 class="services__title">Software Development</h2>
+              <p class="services__description">
+                Custom software development tailored to your specifications,
+                designed to provide user requiremnts and great user experience.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-terminal-window-line"></i>
+              </div>
+
+              <h2 class="services__title">
+                Solution Architecture & Deployment
+              </h2>
+              <p class="services__description">
+                Design, deploy and implement software solutions to provide a
+                great user experience, fast delivery and efficient integration.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span> Projects. </span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/projects/sunbird.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://github.com/SunbirdAI/sunbird-ai-api-experimental"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Sunbird Experimental</h2>
+
+              <p class="projects__description">
+                An experimental version of the Sunbird AI API that incorporates
+                language ID and explores the translation of longer text
+                documents.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/SunbirdAI/sunbird-ai-api-experimental"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/projects/sunbird1.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://github.com/ConradKash/sunbird_tasks/tree/main/app/model"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Machine Learning</h3>
+              <h2 class="projects__title">Language Identificationn Model</h2>
+
+              <p class="projects__description">
+                Project was to create a language Identification Model using
+                scikit-learn and fastapi. This would help users of the website
+                to easily translate there texts since the language ID is
+                automatics
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/ConradKash/sunbird_tasks/tree/main/app/model"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/projects/clickbait.png"
+                target="_blank"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://github.com/ConradKash/endofyearhack"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">DataScience</h3>
+              <h2 class="projects__title">Clickbait Detector</h2>
+
+              <p class="projects__description">
+                Clickbait refers to an article headline that is to lure in a
+                viewer to click through to a certain webpage. With clickbait
+                becoming increasingly common and, generally considered as a
+                nuisance, I wanted to see if a headline could be classified
+                using machine learning and what that looks like.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/ConradKash/endofyearhack"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-                <span>Services.</span>
-            </h2>    
-            
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-bar-chart-grouped-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Data Analysis</h2>
-                        <p class="services__description">
-                            Beautiful and elegant reports with 
-                            information that are intuitive, efficient 
-                            and pleasant  to use for the user.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-code-box-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Development</h2>
-                        <p class="services__description">
-                            Custom web development tailored to your 
-                            specifications, designed to provide a 
-                            flawless user experience.
-                        </p>
-                        
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-terminal-window-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Software Engineering | DataScience</h2>
-                        <p class="services__description">
-                            Design, deploy and implement DataScience 
-                            and machine learning solutions to provide 
-                            a seamless user experience and solve problems.
-                        </p>
-                    </div>
-                </article>
-            </div>
-         </section>
-
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-                <span>
-                    Projects.
-                </span>
+              <span class="section__title-span"> Contact Me. </span>
             </h2>
 
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/img/projects/sunbird.png" alt="image" class="projects__img">
+            <p class="contact__description-1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </p>
+            <p class="contact__description-2">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply.
+            </p>
 
-                        <a href="https://github.com/SunbirdAI/sunbird-ai-api-experimental" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Sunbird Experimental</h2>
+            <div class="geometric-box"></div>
+          </div>
 
-                        <p class="projects__description">
-                            An experimental version of the Sunbird AI API 
-                            that incorporates language ID and explores 
-                            the translation of longer text documents.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/SunbirdAI/sunbird-ai-api-experimental" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View  
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/img/projects/sunbird1.png" alt="image" class="projects__img">
-
-                        <a href="https://github.com/ConradKash/sunbird_tasks/tree/main/app/model" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Machine Learning</h3>
-                        <h2 class="projects__title">Language Identificationn Model</h2>
-
-                        <p class="projects__description">
-                            Project was to create a language Identification Model
-                            using scikit-learn and fastapi. This would help users 
-                            of the website to easily translate there texts since
-                            the language ID is automatics   
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/ConradKash/sunbird_tasks/tree/main/app/model" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View  
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/img/projects/clickbait.png" target="_blank" alt="image" class="projects__img">
-
-                        <a href="https://github.com/ConradKash/endofyearhack" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">DataScience</h3>
-                        <h2 class="projects__title">Clickbait Detector</h2>
-
-                        <p class="projects__description">
-                            Clickbait refers to an article headline that is 
-                            to lure in a viewer to click through to a certain webpage.
-                            With clickbait becoming increasingly common and, generally considered as a nuisance, 
-                            I wanted to see if a headline could be classified using machine learning and what that looks like.    
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/ConradKash/endofyearhack" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View  
-                        </a>
-                    </div>
-                </article>
-   
-            </div> 
-         </section>
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            <div class="contact__container grid">
-                <div class="contact__data">
-                    <h2 class="section__title-2">
-                        <span class="section__title-span">
-                            Contact Me.
-                        </span>
-                    </h2>
-
-                    <p class="contact__description-1">
-                        I will read all emails. Send me any 
-                        message you want and I'll get back to you.
-                    </p>
-                    <p class="contact__description-2">
-                        I need your <b>Name</b> and <b>Email Address</b>, but 
-                        you won't receive anything other than your reply.
-                    </p>
-
-                    <div class="geometric-box"></div>
-                </div> 
-
-                <div class="contact__mail">
-                    <h2 class="contact__title">
-                        Send Me A Message
-                    </h2>
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__group">
-                            <div class="contact__box">
-                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name" >
-                                <label for="name" class="contact__label">First Name</label>
-                            </div>
-
-                            <div class="contact__box">
-                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address" >
-                                <label for="email" class="contact__label">Email Address</label>
-                            </div>
-                        </div>
-
-                        <div class="contact__box">
-                            <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject" >
-                            <label for="subject" class="contact__label">Subject</label>
-                        </div>
-
-                        <div class="contact__box contact__area">
-                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message" ></textarea>
-                            <label for="message" class="contact__label">Message</label>
-                        </div>
-
-                        <p id="contact-message" class="contact__message"></p>
-
-                        <button type="submit" class="contact__button button"> 
-                            <i class="ri-send-plane-line"></i>
-                            Send Message
-                        </button>
-                    </form>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
                 </div>
 
-                <div class="contact__social">
-                    <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
-
-                    <div class="contact__social-data">
-                        <div>
-                            <p class="contact__social-description-1">
-                                Doesn't send Email?
-
-                            </p>
-
-                            <p class="contact__social-description-2">
-                                Write me on my social networks
-                            </p>
-                        </div>
-                        <div class="contact__social-links">
-                            <a href="https://www.instagram.com/thee.mukiga/" target="_blank" class="contact__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/kakuru-conrad-akankwasa-89289b1a4/" target="_blank" class="contact__social-link">
-                                <i class="ri-linkedin-box-line"></i>
-                            </a>
-
-                            <a href="https://github.com/ConradKash" target="_blank" class="contact__social-link">
-                                <i class="ri-github-line"></i>
-                            </a>
-                        </div>
-                    </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
                 </div>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+
+              <p id="contact-message" class="contact__message"></p>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <img
+              src="assets/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">Doesn't send Email?</p>
+
+                <p class="contact__social-description-2">
+                  Write me on my social networks
+                </p>
+              </div>
+              <div class="contact__social-links">
+                <a
+                  href="https://www.instagram.com/thee.mukiga/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/kakuru-conrad-akankwasa-89289b1a4/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a
+                  href="https://github.com/ConradKash"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+              </div>
             </div>
-         </section>
-      </main>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About.</a>
-                </li>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About.</a>
+          </li>
 
-                <li>
-                    <a href="#op" class="footer__link">Services.</a>
-                </li>
+          <li>
+            <a href="#op" class="footer__link">Services.</a>
+          </li>
 
-                <li>
-                    <a href="#projects" class="footer__link">Projects.</a>
-                </li>
-            </ul>
+          <li>
+            <a href="#projects" class="footer__link">Projects.</a>
+          </li>
+        </ul>
 
-            <span class="footer__copy">
-                &#169; All Rights Reserved By 
-                <a href="#">ConradKash.</a>
-            </span>
-         </div>
-      </footer>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="#">ConradKash.</a>
+        </span>
+      </div>
+    </footer>
 
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-      </a>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
